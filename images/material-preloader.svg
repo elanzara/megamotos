@@ -1,0 +1,14 @@
+<svg x="0px" y="0px" width="400px" height="400px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+            .path {
+                stroke-dasharray: 180;
+                stroke-dashoffset: 60;
+            }
+        </style>
+    </defs>
+    <g transform="translate(50, 50)">
+        <rect class="myObject" x="-20" y="-20" stroke="#666" fill="none" width="40" height="40" />
+        <circle class="myObject" stroke="#000" fill="none" stroke-width="6" x="-20" y="-20" r="40"></circle>
+    </g>
+</svg>

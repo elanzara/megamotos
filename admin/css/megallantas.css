@@ -1,0 +1,184 @@
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th { margin:0; padding:0;}
+* {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; outline: 0}
+body, html {margin:0px;padding:0px;font: normal 13px Arial;color:#666;line-height:18px; height:100%;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+img {border:0px;}
+a {color:#b6101d;text-decoration:none;}
+a:hover{color:#b6101d; text-decoration: underline;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+
+/* HOME */
+#page {width:940px; margin:0 auto; /* center, not in IE5 */ height:auto;}
+#header {width:940px; height:80px; padding:0 0 10px 0; margin:0 0 5px 0 ; float:left; border-bottom:3px solid #58585a;}
+#header #marca {width:180px; height:60px; padding:20px 20px 0 0; float:left;}
+#header #admin {width:auto; height:auto; padding:55px 10px 0 10px; text-align:left; float:left; font: normal 18px Arial;color:#b60f1d;}
+#header #sesion {width:auto; height:auto; padding:55px 10px 0 10px; text-align:left; float:left;}
+#header #menu {width:433px; height:80px; padding:0; text-align:right; float:left;}
+#central {width:940px; height:auto; margin:15px 0 25px 0;}
+h1 {font: normal 18px Arial;color:#b60f1d; margin-bottom:20px; border-bottom: 1px solid #58585a;}
+h3 {color:#b60f1d;}
+
+/* FORM TABLA HTML*/
+
+.form  {
+	width:100%; border:0; 
+	}
+	
+.rowGris  {
+	background: #eee;
+	border: 1px solid #ccc;
+	}
+
+.rowBlanco  {
+	background: #fff;
+	border: 1px solid #ccc;
+	}
+
+.formTitle  {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: left;
+	color:#666666;
+	padding: 5px;
+	background: #eee;
+	border-top: 1px solid #ccc;
+	text-align:left;
+	vertical-align:top;
+	}
+	
+.formFields  {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: normal;
+	text-align: left;
+	color:#666666;
+	background: #fff;
+	border-top: 1px solid #ccc;
+	padding: 5px;
+	text-align:left;
+	vertical-align:top;
+		}
+
+.campos  {
+	border: 1px solid #ccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: normal;
+	color:#666666;
+		}
+		
+.textarea  {
+	border: 1px solid #ccc;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color:#666666;
+	padding:3px;
+		}
+		
+.boton  {
+background:#b60f1d url(../images/bkg_boton.jpg) repeat-x left top;
+border: 1px solid #7c0913;
+font-family:  Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	color:#fff;
+	padding:3px;
+	margin:5px;
+
+	}
+	
+.mensaje  {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color:#b6101d;
+	padding:3px;
+	}
+
+.navegador {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FF0000;
+    font-weight: bold;
+    background:#1c2227;
+}
+
+/* FOOTER* #9adf07/
+#footer {width:925px; height:25px; padding:5px 5px 5px 10px; margin:20px 0 10px 0; float:left; background:url(../images/bkg-footer.gif) left top no-repeat; }
+#footer img { display:block; float:left;}
+#footer  .txt {width:auto; height:20px; padding:5px 0 0 15px; float:left; font: normal 12px Arial;color:#979695;}
+#footer a {color:#979695;text-decoration:none;}
+#footer a:hover{color:#979695; text-decoration: underline;}
+
+
+/****************************MENU ***********************/
+#navg, #navg ul{
+	z-index: 500;
+	clear:both;
+	padding:0;
+	list-style-type:none;
+	list-style-position:outside;
+	height:80px;
+	width:auto;
+	margin:0px 0px 0px 0px;
+	float:right;
+}
+#navg a{
+	font:bold 12px Arial;
+	display:block;
+	padding:60px 14px 5px 14px;
+	text-decoration:none;
+	color:#666;
+	background: url(../images/bkg-bt-spacer.gif) left 62px  no-repeat;
+}
+#navg a:hover{
+	background:#fff;
+	color:#B6101D;
+	background: url(../images/bkg_bt_on.gif) left top  repeat-x;
+}
+#navg li{
+	float:left;
+	position:relative;
+
+}
+#navg ul {
+	position:absolute;
+	display:none;
+	width:200px;
+	top:75px;
+	text-align:left;
+}
+#navg li ul a{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	padding:4px;
+	padding-left:15px;
+	width:200px;
+	float:left;
+	border-bottom:1px solid #e1e0db;
+	color:#B6101D;
+	background:#fff;
+}
+#navg li ul a:hover{
+	background:#f0efed;
+}
+#navg ul ul{
+	top:0;
+}	
+#navg li ul ul {
+	left:200px;
+	margin:0px 0 0 10px;
+	width:110px;
+}
+#navg li:hover ul ul, #navg li:hover ul ul ul, #navg li:hover ul ul ul ul{display:none;}
+#navg li:hover ul, #navg li li:hover ul, #navg li li li:hover ul, #navg li li li li:hover ul{display:block;}
+

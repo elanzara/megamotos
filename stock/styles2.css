@@ -1,0 +1,14 @@
+/* @group main elements */
+* { margin: 0; padding: 0; }
+
+/* @group modal form */
+#msgform { width: 400px; height: 200px; background: #faf7e3; border: 8px solid #f0ecd0; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; padding: 4px 14px; top: -1px; z-index: 9; }
+
+.mainCompose { display: inline; }
+
+.containmsg { margin-left: 50px; display: block; float: right; position: relative; }
+.containmsg .mainCompose { position: absolute; left: -33px; top: 20px; }
+
+/* @group clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }

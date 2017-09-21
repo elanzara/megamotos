@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>.: Formulario de contacto :.</title>
+<style type="text/css">
+body, a {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #707070;
+}
+td { padding-right:5px; padding-left:5px; }
+input, textarea {
+  border:thin solid #C9CACB;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #707070;
+}
+</style>
+</head>
+
+<body>
+<form name="form" method="post" action="sendmail.php">
+<table width="400"  border="0" cellspacing="5" cellpadding="0">
+  <tr>
+    <td align="right">Nombre:</td>
+    <td><input type="text" name="nombre"/><br/></td>
+  </tr>
+  <tr>
+    <td align="right">Tel&eacute;fono:</td>
+    <td><input type="text" name="telefono"/><br/></td>
+  </tr>
+  <tr>
+    <td align="right">Correo Electr&oacute;nico:</td>
+    <td><input type="text" name="email"/><br/></td>
+  </tr>
+  <tr>
+    <td align="right">Sugerencia:</td>
+    <td><textarea name="sugerencia"></textarea><br/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><br/><img src="captcha.php" width="200" height="50" alt="Visual CAPTCHA" /><br/><br/><td>
+  </tr>
+  <tr>
+    <td align="right">Codigo de Verificaci&oacute;n:</td>
+    <td><input type="text" name="captcha"/><br/></td>
+  </tr>
+
+	<input type="hidden" name="subject" value="Nueva Sugerencia"/>
+	<input type="hidden" name="errorOcurred" value="error.html"/>
+	<input type="hidden" name="successfully" value="gracias.html"/>
+
+  <tr>
+    <td colspan="2" align="center">
+	<input type="reset" value="Borrar Datos"/> &nbsp; &nbsp;
+	<input type="submit" value="Enviar Formulario"/>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
